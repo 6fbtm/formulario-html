@@ -30,12 +30,25 @@
     </div>
     <div class="edad">
         <label for="edad">Edad:</label><br>
-        <input type="date" name="edad" id="edad" required>
+        <input type="number" name="edad" id="edad" required>
     </div>
     <div class="numeros">
         <label for="numeros">Algun numero</label><br>
         <input type="text" id="numeros" pattern="\d*" required>
     </div>
+    <div class="numero-positivo">
+        <label for="numero_positivo">Numero positivo:</label><br>
+        <input type="number" id="numero-positivo" max="0">
+    </div>
+    <div class="numero-paso">
+        <label for="numero-paso">Numero con paso:</label><br>
+        <input type="number" id="numero-paso" min="10" max="20" value="15" required>
+    </div>
+    <div class="nacimiento">
+        <label for="nacimiento">Fecha de nacimiento</label><br>
+        <input type="date" id="nacimiento" required>
+    </div>
+    <div class=""></div>
     <div class="enviar">
         <input type="submit" >
     </div>
